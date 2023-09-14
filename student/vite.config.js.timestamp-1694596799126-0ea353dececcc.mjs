@@ -1,6 +1,6 @@
 // vite.config.js
-import { defineConfig } from "file:///C:/Users/USER/Documents/dev/projects/web/smatt/client/node_modules/vite/dist/node/index.js";
-import react from "file:///C:/Users/USER/Documents/dev/projects/web/smatt/client/node_modules/@vitejs/plugin-react/dist/index.mjs";
+import { defineConfig } from "file:///C:/Users/USER/Documents/dev/projects/web/smatt/student/node_modules/vite/dist/node/index.js";
+import react from "file:///C:/Users/USER/Documents/dev/projects/web/smatt/student/node_modules/@vitejs/plugin-react/dist/index.mjs";
 var vite_config_default = defineConfig({
   plugins: [react()],
   server: {

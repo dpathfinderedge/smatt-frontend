@@ -53,7 +53,7 @@ export default {
       },
       backgroundImage: {
         'hero-pattern':
-          "url('/client/src/assets/hero-bg.svg')",
+          "url('/student/src/assets/hero-bg.svg')",
           // "url('')",
       }
     },
