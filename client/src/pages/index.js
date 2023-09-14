@@ -1,0 +1,17 @@
+export { default as Home } from './Home';
+export { default as SignIn } from './SignIn';
+export { default as SignUp } from './SignUp';
+export { default as VerifyEmail } from './VerifyEmail';
+export { default as NotFound } from './NotFound';
+export { default as Dashboard } from './Dashboard';
+export { default as Records } from './Records';
+export { default as Notifications } from './Notifications';
+export { default as Settings } from './Settings';
+export { default as Invite } from './Invite';
+export { default as Profile } from './Profile';
+export { default as ResetPassword } from './ResetPassword';
+export { default as SetUpPassword } from './SetupPassword';
+export { default as RegisterFace } from './RegisterFace';
+export { default as RegisterFaceReq } from './RegisterFaceReq';
+export { default as VerifiedEmail } from './VerifiedEmail';
+export { default as FaceCapture } from './FaceCapture';

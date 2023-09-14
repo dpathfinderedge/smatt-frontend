@@ -1,0 +1,38 @@
+
+export { default as logoLight2 } from './logo-light.png';
+export { default as logoColored2 } from './logo-colored.png';
+export { default as logoLight } from './logo-light.svg';
+export { default as logoDark } from './logo-dark.svg';
+export { default as envelope } from './envelope.png';
+export { default as heroImage } from './hero-img.png';
+export { default as heroBg } from './hero-bg.svg';
+export { default as eyeOff } from './eye-off.svg';
+export { default as eyeOn } from './eye-on.svg';
+export { default as email } from './email.svg';
+export { default as emailDark } from './email-dark.svg';
+export { default as lock } from './lock.svg';
+export { default as checked } from './checked.svg';
+export { default as unchecked } from './unchecked.svg';
+export { default as avatar } from './avatar.jpg';
+export { default as home } from './home.svg';
+export { default as records } from './records.svg';
+export { default as notification } from './notification.svg';
+export { default as invite } from './invite.svg';
+export { default as settings } from './settings.svg';
+export { default as search } from './search.svg';
+export { default as arrowDown } from './arrow-down.svg';
+export { default as more } from './more.svg';
+export { default as logout } from './logout.svg';
+export { default as settingsLight } from './settings-light.svg';
+export { default as reset } from './reset.png';
+export { default as facial } from './facial.png';
+// export { default as face } from './face.png';
+export { default as face } from './face.svg';
+// export { default as camera } from './camera.png';
+export { default as camera } from './camera.svg';
+// export { default as bulb } from './bulb.png';
+export { default as bulb } from './bulb.svg';
+export { default as study } from './study.svg';
+export { default as viewAll } from './view-all.svg';
+export { default as checkMark } from './check-mark.svg';
+
