@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 import { createContext, useContext, useEffect, useReducer } from "react";
 
 const INITIAL_STATE = {
-  user: null,
+  user: JSON.parse(localStorage.getItem('user') || null ),
   loading: false,
   err: null
 };
@@ -12,7 +13,7 @@ const AuthReducer = (state, action) => {
   switch(action.type) {
     case 'SIGNIN_START':
       return {
-        user: null,
+        user: state.user,
         loading: true,
         err: null
       }
@@ -24,19 +25,19 @@ const AuthReducer = (state, action) => {
       }
     case 'SIGNIN_FAILURE':
       return {
-        user: null,
+        user: state.user,
         loading: false,
         err: action.payload
       }
     case 'SIGNOUT':
       return {
-        user: null,
+        user: state.user,
         loading: false,
         err: null
       }
     case 'SIGNUP_START':
       return {
-        user: null,
+        user: state.user,
         loading: true,
         err: null
       }
@@ -48,7 +49,7 @@ const AuthReducer = (state, action) => {
       }
     case 'SIGNUP_FAILURE':
       return {
-        user: null,
+        user: state.user,
         loading: false,
         err: action.payload
       }
